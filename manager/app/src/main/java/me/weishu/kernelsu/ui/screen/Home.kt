@@ -232,7 +232,7 @@ private fun StatusCard(
 ) {
     ElevatedCard(
         colors = CardDefaults.elevatedCardColors(containerColor = run {
-            if (ksuVersion != null) MaterialTheme.colorScheme.secondaryContainer
+            if (ksuVersion != null) MaterialTheme.colorScheme.primaryContainer
             else MaterialTheme.colorScheme.errorContainer
         })
     ) {
